@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/todos";
+const API_URL = "https://todolist-inky-mu.vercel.app/api/todos";
 
 const TodoApp = () => {
   const [title, setTitle] = useState("");
